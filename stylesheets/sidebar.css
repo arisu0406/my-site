@@ -1,0 +1,22 @@
+nav ul{
+    list-style-type: none;
+    padding-left: 32px;
+    margin-bottom: 32px;
+}
+
+nav a{
+    text-decoration: none;
+}
+.content a{
+    text-decoration: underline;
+}
+nav{
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+}
+
+nav:hover,nav:focus-within{
+    
+    opacity: 1;
+
+}
