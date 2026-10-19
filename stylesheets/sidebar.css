@@ -1,4 +1,15 @@
-nav ul{
+
+nav.sidebar {
+  width: 280px;
+ position: fixed;
+  top: 50px;
+  left: 0;
+
+  left: 20px;
+  font-size: 15px;
+  line-height: 20px;
+}
+  nav ul{
     list-style-type: none;
     padding-left: 32px;
     margin-bottom: 32px;
@@ -18,5 +29,4 @@ nav{
 nav:hover,nav:focus-within{
     
     opacity: 1;
-
 }
